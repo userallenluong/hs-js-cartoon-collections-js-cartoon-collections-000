@@ -25,9 +25,9 @@ function longPlaneteerCalls(words) {
 }
 
 function findTheCheese(foods) {
-  var cheesetypes = ["cheddar", "gouda", "camenbert"]
   for (let i = 0; i < foods.length; i++)  {
-    if(cheesetypes.include(foods[i]))  {
+    if (foods[i] ==="cheddar" || foods[i] ==="gouda" || foods[i] ==="cambert"){
+      }
       return foods[i];
     }
   }

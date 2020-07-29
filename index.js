@@ -24,4 +24,11 @@ function longPlaneteerCalls(words) {
   }
 }
 
-function findTheCheese(foods) {}
+function findTheCheese(foods) {
+  var cheesetypes = ["cheddar", "gouda", "camenbert"]
+  for (let i = 0; i < foods.length; i++)  {
+    if(cheesetypes.include(food[i]))  {
+      return food[i];
+    }
+  }
+}
